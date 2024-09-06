@@ -609,25 +609,28 @@ ${eventObj.component_id_03 || eventObj.component_title_03 || eventObj.component_
                     righContainer.prepend(newLink);
                 }
 
-                const link = document.getElementById('lookerlink');
+                const links = document.querySelectorAll('#lookerlink');
+                links.forEach(function (link) {
 
-                link.addEventListener('click', function (event) {
-                    window.open(event.target.href, '_blank');
+                    link.addEventListener('click', function (event) {
+                        window.open(event.target.href, '_blank');
+                    });
+
+
+                    // Add event listener for mouseover (hover)
+                    link.addEventListener('mouseover', function () {
+                        link.style.backgroundColor = '#f4f4ff4';  // Change color to blue on hover
+                        link.style.cursor = 'pointer';
+                        link.style.cursor = 'pointer';
+
+                    });
+
+                    // Add event listener for mouseout (when hover ends)
+                    link.addEventListener('mouseout', function () {
+                        // link.style.color = 'white';  // Reset color when hover ends
+                    });
                 });
 
-
-                // Add event listener for mouseover (hover)
-                link.addEventListener('mouseover', function () {
-                    link.style.backgroundColor = '#f4f4ff4';  // Change color to blue on hover
-                    link.style.cursor = 'pointer';
-                    link.style.cursor = 'pointer';
-
-                });
-
-                // Add event listener for mouseout (when hover ends)
-                link.addEventListener('mouseout', function () {
-                    // link.style.color = 'white';  // Reset color when hover ends
-                });
             }
             if (document.querySelectorAll('#data-popup').length > 1) {
                 document.querySelectorAll('#data-popup').forEach(cur => {
