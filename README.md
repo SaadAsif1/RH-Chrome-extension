@@ -6,13 +6,20 @@ This guide will walk you through **every step** from downloading the extension t
 
 ---
 
+## Video Tutorial 
+
+**macOS Users**
+
+
+https://github.com/user-attachments/assets/6835c8a7-9dcb-4713-b5ff-1b1aa60a2668
+
+
+---
+
 ## Step 1: Download the Extension
 
-1. **Click on the link below** to download the RHCL Chrome Extension files as a `.zip` file.
-   
-   **[Download the RHCL Chrome Extension](https://github.com/yourusername/rhcl-extension)**
-
-2. On the page that opens, click the green **Code** button, then click **Download ZIP**.
+On the page that opens, click the green **Code** button, then click **Download ZIP**.
+![Screen Shot 2024-09-06 at 9 42 15 AM](https://github.com/user-attachments/assets/8f637ac1-142d-4d18-9140-b3735e2fe914)
 
 ---
 
@@ -85,27 +92,4 @@ When you click **Start Testing**, the extension will block certain elements on t
 
 ### 3. How do I stop testing?
 Simply click the **Stop Testing** button in the extension popup to stop testing and unblock the resources.
-
----
-
-## Contact & Support
-
-If you have any questions or need further assistance, feel free to reach out:
-
-- **Support Email**: support@yourcompany.com
-- **Phone**: (123) 456-7890
-
----
-
-## Video Tutorial (Coming Soon!)
-
-We’re working on a video tutorial to walk you through the steps visually. Check back here soon!
-
----
-
-### Final Notes:
-
-By following these steps, you should now be able to successfully load and run the **RHCL Chrome Extension**. If you encounter any issues or need help, don't hesitate to contact our support team!
-
----
 
