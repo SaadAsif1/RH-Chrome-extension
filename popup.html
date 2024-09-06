@@ -9,13 +9,22 @@
         body {
             font-family: 'Helvetica Neue', Arial, sans-serif;
             width: 370px;
-            padding: 10px;
+            padding: 15px;
+            padding-top: 0;
             background-color: white;
             margin: 0;
-            border-radius: 10px;
+            /* border-radius: 10px; */
             box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-            border: solid 3px black;
+            /* border: solid 4px #CC0033; */
             text-align: center;
+        }
+
+        .body-start {
+            border: solid 3px green;
+        }
+
+        .body-stop {
+            border: solid 3px #CC0033;
         }
 
         h1 {
@@ -73,7 +82,7 @@
         }
 
         /* Make the extension feel premium */
-        body,
+        /* body, */
         button,
         div {
             border-radius: 10px;
@@ -81,7 +90,7 @@
     </style>
 </head>
 
-<body>
+<body class="body-start">
     <h1>RHCL-Extension</h1>
     <button id="toggleButton" class="start">Start Testing</button>
 

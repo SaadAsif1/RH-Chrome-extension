@@ -12,12 +12,16 @@ document.addEventListener('DOMContentLoaded', function () {
             toggleButton.textContent = 'Stop Testing';
             toggleButton.classList.remove('start');
             toggleButton.classList.add('stop');
+            document.body.classList.remove('body-start');
+            document.body.classList.add('body-stop');
             currentStatusText.textContent = 'Testing is running...';
             blockMessage.style.display = 'block'; // Show block message
         } else {
             toggleButton.textContent = 'Start Testing';
             toggleButton.classList.remove('stop');
             toggleButton.classList.add('start');
+            document.body.classList.remove('body-stop');
+            document.body.classList.add('body-start');
             currentStatusText.textContent = 'Testing is turned off';
             blockMessage.style.display = 'none'; // Hide block message
         }
