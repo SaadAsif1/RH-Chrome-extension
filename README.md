@@ -1,7 +1,5 @@
 # RHCL Chrome Extension
 
-Welcome to the **RHCL Chrome Extension**! This simple tool helps you test web pages and block specific resources when testing is active.
-
 This guide will walk you through **every step** from downloading the extension to using it in your Chrome browser. Follow the instructions below carefully to ensure you get everything up and running smoothly.
 
 ---
