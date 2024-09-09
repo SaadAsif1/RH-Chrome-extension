@@ -76,20 +76,7 @@ On the page that opens, click the green **Code** button, then click **Download Z
 
 2. **Click the RHCL icon** to open the extension popup.
 
-3. In the popup, you will see a button labeled **"Start Testing"**. **Click it** to begin testing. When testing mode is active, certain elements on the webpage (like `tags.roberthalf.com`) will be blocked.
+3. In the popup, you will see a button labeled **"Start Testing"**. **Click it** to begin testing. When testing mode is active.
 
 4. When you're finished, click the button again, which will now say **"Stop Testing"**, to end the testing mode.
-
----
-
-## Frequently Asked Questions
-
-### 1. What is this extension for?
-This extension helps you test webpages by blocking specific resources when testing mode is active. It is useful for marketing professionals who need to see how a page behaves under certain conditions.
-
-### 2. What does "Start Testing" do?
-When you click **Start Testing**, the extension will block certain elements on the page to simulate a test environment. This is helpful for analyzing how a page responds without certain assets loading.
-
-### 3. How do I stop testing?
-Simply click the **Stop Testing** button in the extension popup to stop testing and unblock the resources.
 
